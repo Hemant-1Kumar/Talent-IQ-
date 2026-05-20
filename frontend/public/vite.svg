@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Badge -->
+  <rect x="64" y="64" width="384" height="384" rx="64" fill="#0F172A"/>
+
+  <!-- Inner Border -->
+  <rect x="96" y="96" width="320" height="320" rx="48" stroke="#94A3B8" stroke-width="6"/>
+
+  <!-- Left Code Bracket -->
+  <path d="M200 170 L150 256 L200 342"
+        stroke="#E2E8F0"
+        stroke-width="20"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Right Code Bracket -->
+  <path d="M312 170 L362 256 L312 342"
+        stroke="#E2E8F0"
+        stroke-width="20"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Center Dot -->
+  <circle cx="256" cy="256" r="10" fill="#38BDF8"/>
+
+</svg>
