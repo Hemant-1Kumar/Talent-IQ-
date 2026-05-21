@@ -31,7 +31,7 @@ export async function createSession(req, res) {
     // ✅ STREAM VIDEO (SAFE)
     // =========================
     try {
-      const call = streamClient.video.call("default", callId);
+      const call = streamClient.call("default", callId);
 
       await call.getOrCreate({
         data: {
